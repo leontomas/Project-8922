@@ -8,6 +8,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./css/reset-password.css">
+    
 </head>
 <body>
     <div class="header">
