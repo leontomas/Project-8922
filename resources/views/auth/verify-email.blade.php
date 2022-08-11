@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hanflix</title>
+	<title>Hanflix | Watch Movie for free | Livestream</title>
 	<link rel="stylesheet" type="text/css" href="./css/verification.css">
     
 </head>
@@ -34,7 +34,7 @@
 
                 <div>
                     <button class="verify-btn">
-                        {{ __('Verify your email') }}
+                        {{ __('Resend Verification') }}
                     </button>
                 </div>
             </form>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MovieController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,15 @@ Route::get('/dashboard', function () {
 })->middleware(['auth','verified'])->name('dashboard');
 
 require __DIR__.'/auth.php';
+
+
+Route::resource('movies', MovieController::class);
+
+
+Route::get('/movies',[MovieController::class, 'index'])->name('index');
+Route::get('/create',[MovieController::class, 'create'])->name('create');
+Route::post('store/',[MovieController::class, 'store'])->name('store');
+Route::get('show/{movie}',[MovieController::class, 'show'])->name('show');
+Route::get('edit/{movie}',[MovieController::class, 'edit'])->name('edit');
+Route::put('edit/{movie}',[MovieController::class, 'update'])->name('update');
+Route::delete('/{movie}',[MovieController::class, 'destroy'])->name('destroy');

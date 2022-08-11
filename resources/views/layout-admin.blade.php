@@ -80,6 +80,32 @@
                                     </div>
                                 </a>
                             </li>
+                            <li class="notification-message">
+                                <a href="#">
+                                    <div class="media"> <span class="avatar avatar-sm">
+                                            <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-17.jpg">
+                                        </span>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">John Hendry</span> sent a cancellation request <span class="noti-title">Apple iPhone
+                                                    XR</span></p>
+                                            <p class="noti-time"><span class="notification-time">8 mins ago</span> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="notification-message">
+                                <a href="#">
+                                    <div class="media"> <span class="avatar avatar-sm">
+                                            <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-13.jpg">
+                                        </span>
+                                        <div class="media-body">
+                                            <p class="noti-details">
+                                                <span class="noti-title">Lorem Ipsum</p>
+                                            <p class="noti-time"><span class="notification-time">12 mins ago</span> </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <!-- Notification Bell -->
@@ -90,7 +116,7 @@
             </li>
             <!-- User Profile -->
             <li class="nav-item dropdown has-arrow">
-                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <span class="user-img"><img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="31" alt="avatar-img"></span> </a>
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <span class="user-img"><img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="31" alt="Soeng Souy"></span> </a>
                 <div class="dropdown-menu">
                     <div class="user-header">
                         <div class="avatar avatar-sm">
@@ -153,14 +179,12 @@
                     </ul>
                 </div>
             </div>
-
-            <!-- Main Content -->
-            <div class="container">
-                @yield('content')
-            </div>
         </div>
     </div>
-
+    <!-- Main Content -->
+    <div class="container"></div>
+    @yield('content')
+    </div>
     <!-- SCRIPTS -->
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="assets/js/jquery-3.5.1.min.js"></script>
