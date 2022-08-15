@@ -60,7 +60,7 @@
                         Menu
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="menuDropdown">
-                            <li><a class="dropdown-item" href="#">Setting</a></li>
+                            <li><a class="dropdown-item" href="{{ route('index') }}">Setting</a></li>
                             <form method="POST" action=" {{ url('logout') }}">
                             @csrf
                                 <button type="submit" class="btn btn-light">Logout</button>
